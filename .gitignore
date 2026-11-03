@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.tmp/
+
+# Local Kite session contains a private access token.
+backend/data/
+backend/.tmp/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local environment files
+.env
+.env.*
+
+# Private credentials, local logs, and signing material
+**/credentials.txt
+*.token
+*.log
+*.pem
+*.key
